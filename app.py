@@ -4,7 +4,7 @@ import mediapipe as mp
 import socket
 
 def main():
-    server_address_port = ("192.168.9.106", 20001)
+    server_address_port = ("ip_of_esp32", 20001)
     buffer_size = 1024
     udp_client_socket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
 
