@@ -2,8 +2,8 @@
 #include <WiFiUdp.h>
 
 // WiFi network settings
-const char* ssid = "Airtel_Shreyas";
-const char* password = "Shreyasp@10";
+const char* ssid = "yout_ssid";
+const char* password = "your_password";
 
 // UDP settings
 const int localUdpPort = 20001;
