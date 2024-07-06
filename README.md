@@ -8,24 +8,6 @@ The Eye Gaze Controlled Wheelchair enhances mobility for individuals with severe
 - Gaze direction detection
 - Wireless UDP communication
 
-## Repository Structure
-\`\`\`
-eye-gaze-controlled-wheelchair/
-├── README.md
-├── app.py
-├── requirements.txt
-├── src/
-│   ├── __init__.py
-│   ├── face_detection.py
-│   ├── gaze_control.py
-├── esp32/
-│   └── main.ino
-└── tests/
-    └── test_gaze_control.py
-\`\`\`
-
-## Installation
-
 ### Raspberry Pi and OpenCV Setup
 
 1. Clone the repository:
