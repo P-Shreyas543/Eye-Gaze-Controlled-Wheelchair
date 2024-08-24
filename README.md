@@ -8,7 +8,7 @@ The Eye Gaze Controlled Wheelchair enhances mobility for individuals with severe
 - Gaze direction detection
 - Wireless UDP communication
 
-## Raspberry Pi and OpenCV Setup
+## OpenCV Setup
 
 ### Prerequisites
 
