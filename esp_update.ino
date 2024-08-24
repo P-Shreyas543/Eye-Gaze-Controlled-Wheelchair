@@ -1,6 +1,6 @@
 #include <WiFi.h>
 #include <WiFiUdp.h>
-#include <NewPing.h> // Add this library for ultrasonic sensor
+#include <NewPing.h>
 
 // WiFi network settings
 const char* ssid = "your_ssid";
