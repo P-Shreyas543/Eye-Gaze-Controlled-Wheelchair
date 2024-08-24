@@ -48,10 +48,7 @@ The Eye Gaze Controlled Wheelchair enhances mobility for individuals with severe
     ```
 
 5. **Follow the on-screen instructions** to control the wheelchair using your eye gaze.
-
-## Application Output
    
-
 ## Setting Up the ESP32
 
 1. **Open the `main.ino` file** located in the `esp32` directory with the Arduino IDE.
