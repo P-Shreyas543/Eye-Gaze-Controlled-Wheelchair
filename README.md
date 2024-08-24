@@ -36,23 +36,18 @@ The Eye Gaze Controlled Wheelchair enhances mobility for individuals with severe
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-3. **Install dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Replace the placeholder IP address** in `app.py` with the actual IP address of your ESP32. Open `app.py` and find:
+3. **Replace the placeholder IP address** in `app.py` with the actual IP address of your ESP32. Open `app.py` and find:
     ```python
     server_address_port = ("ip_of_esp32", 20001)
     ```
     Replace `"ip_of_esp32"` with the IP address of your ESP32.
 
-5. **Run the application**:
+4. **Run the application**:
     ```bash
     python app.py
     ```
 
-6. **Follow the on-screen instructions** to control the wheelchair using your eye gaze.
+5. **Follow the on-screen instructions** to control the wheelchair using your eye gaze.
 
 ## Application Output
    
