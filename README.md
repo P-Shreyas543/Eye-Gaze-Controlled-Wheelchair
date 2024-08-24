@@ -8,7 +8,7 @@ The Eye Gaze Controlled Wheelchair enhances mobility for individuals with severe
 - Gaze direction detection
 - Wireless UDP communication
 
-## OpenCV Setup
+## Setting Up and Running the Eye Gaze Application
 
 ### Prerequisites
 
@@ -54,6 +54,9 @@ The Eye Gaze Controlled Wheelchair enhances mobility for individuals with severe
 
 6. **Follow the on-screen instructions** to control the wheelchair using your eye gaze.
 
+## Application Output
+   
+
 ## Setting Up the ESP32
 
 1. **Open the `main.ino` file** located in the `esp32` directory with the Arduino IDE.
@@ -88,22 +91,27 @@ Ensure the motor driver is properly connected to the motors and powered.
 
 ## Testing
 
-Add tests for critical parts of your project to ensure everything works as expected. Use a framework like `unittest` or `pytest` for Python.
+1. **Verify WiFi Connection**:
+   - Check the Serial Monitor for the ESP32's IP address and ensure it is connected to your WiFi network. The IP address should match what you configured in `app.py`.
 
-## Contributing
+2. **Test Motor Control**:
+   - Use manual commands (e.g., "Forward", "Backward", "Left", "Right") to test the motor control functions directly. Verify that the motors respond as expected to each command.
 
-Contributions are welcome! Please open an issue or submit a pull request.
+3. **Check Command Handling**:
+   - Ensure that the ESP32 correctly parses and executes the commands received over UDP. The Serial Monitor should display the commands it receives and the actions it takes based on those commands.
+
 
 ## Troubleshooting
 
 - **ESP32 not connecting to WiFi**: Ensure that the SSID and password are correctly set in `main.ino` and that the ESP32 is within range of the network.
-
 - **Motor not responding**: Check the wiring connections and ensure the motor driver is properly powered. Also, make sure the motor driver is correctly configured in the ESP32 code.
-
 - **Errors running `app.py`**: Verify that all dependencies are correctly installed and that your Python environment is correctly set up. Ensure the webcam is properly connected and accessible.
-
 - **No UDP communication**: Make sure that the ESP32 and Raspberry Pi are on the same network. Check if the port numbers in `app.py` and `main.ino` match.
-
 - **Unexpected behavior**: Check the Serial Monitor on the ESP32 for debugging information. Ensure the gaze detection and command mapping in `app.py` are functioning as intended.
 
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
 Feel free to add more troubleshooting tips based on common issues you encounter.
+
+For any additional questions or support, please contact [Shreyas P](mailto:shreyasp182002@gmail.com).
