@@ -72,10 +72,6 @@ The Eye Gaze Controlled Wheelchair enhances mobility for individuals with severe
 
 6. **Open the Serial Monitor** to see the connection status and incoming commands.
 
-## ESP32 Setup
-![image](https://github.com/user-attachments/assets/abab2c34-9fe8-4700-919e-1297104caf0d)
-
-
 ## Wiring for Motor Control
 
 Connect the ESP32 to the motor driver as follows:
@@ -87,6 +83,9 @@ Connect the ESP32 to the motor driver as follows:
 - `ENB_PIN` (GPIO 32) -> Motor Driver `ENB`
 
 Ensure the motor driver is properly connected to the motors and powered.
+
+## ESP32 Setup
+![image](https://github.com/user-attachments/assets/abab2c34-9fe8-4700-919e-1297104caf0d)
 
 ## Testing
 
