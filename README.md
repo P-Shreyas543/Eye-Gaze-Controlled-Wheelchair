@@ -13,7 +13,7 @@ The Eye Gaze Controlled Wheelchair enhances mobility for individuals with severe
 ### Prerequisites
 
 1. **Install Python**:
-   - Download and install Python from the [official Python website](https://www.python.org/downloads/). Ensure that Python 3.x is installed.
+   - Download and install Python from the [official Python website](https://www.python.org/downloads/release/python-31011/). Ensure that Python 3.x is installed.
    - Add Python to your system PATH during installation.
 
 2. **Install Python Libraries**:
